@@ -152,7 +152,7 @@ while True:
         sunsetTime = json_data["results"]["sunset"]
 
         # 11. Complete the code to format the response message.
-        responseMessage = "In {} the sun will rise at {} and will set at {} . The day will last {} seconds.".format(
+        responseMessage = "In {} the sun will rise at {} and will set at {} . The day will last {} hours.".format(
             locationResults, sunriseTime, sunsetTime, dayLengthSeconds
         )
 
