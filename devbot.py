@@ -42,8 +42,6 @@ if not r.status_code == 200:
 print("List of rooms:")
 rooms = r.json()["items"]
 for room in rooms:
-    # <!!!REPLACEME with print code to finish the loop>
-    print(f"Room id: {room['id']}")
     print(f"Room name: {room['title']}")
 #######################################################################################
 # SEARCH FOR WEBEX TEAMS ROOM TO MONITOR
